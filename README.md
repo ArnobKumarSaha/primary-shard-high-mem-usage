@@ -11,7 +11,9 @@ export MONGODB_USERNAME=root
 export MONGODB_PASSWORD=<pass from above view-secret command>
 
 ## RUN
-`go run main.go`
+- If you have linux/amd64 architecture: `./bin-linux-amd64`
+- If you have darwin/arm64 architecture: `./bin-darwin-arm64`
+- If you prefer go directly : `go run main.go`
 
 ## Share 
 All the logs are stored in `./log` directory. Share it with us. 
